@@ -7,6 +7,186 @@
 
 <body>
     <h1>Practice Code</h1>
+    <h1>Question one</h1>
+    <pre>
+        public class home{
+            public static void main(String[]args){
+                System.out.println("Java Program");
+            }
+                    }
+    </pre>
+
+    <!-- end of question one -->
+
+    <h1>Question two</h1>
+    <h1 style="text-align: center;"><b>To illustsrate text formatting tags.</b></h1><hr>
+</hr>
+    <marquee>This is an alternate Marquee text</marquee>
+    <p style="text-align: center;">This is <i>italized</i></p>
+    <p style="text-align: center;">This is <u>underline</u></p>
+    <p style="text-align: center;">This is <b>bold</b></p>
+    <p style="text-align: center;">This is <em>emphasized</em></p>
+    <p style="text-align: center;">This is <strong>Strong Text</strong></p>
+    <p style="text-align: center;">This is <strike>striked text</strike></p>
+    <p style="text-align: center;">This is <code>computer code</code></p>
+    <p style="text-align: center;">This is <sup>superscript</sup>code</p>
+    <p style="text-align: center;">This is <sub>subscript</sub>code</p>
+    <p style="text-align: center;">This is <big>big text</big></p>
+    <p style="text-align: center;">This is <small>small text</small></p>
+    
+    <h1 style="text-align:center"><b>To illustsrate Nested and definition list tags</b></h1>
+    <hr>
+</hr>
+<h2><b>An ordered nested list:</b></h2>
+<ol>
+    <li>Cofee</li>
+    <li>Tea</li>
+    <ol type="a">
+        <li>Black tea</li>
+        <li>Green tea</li>
+    <ol style="list-style-type:circle">
+        <li>China</li>
+        <li>Africa</li>
+    </ol></ol>
+
+    <li>Milk</li>
+</ol>
+<h3><b>A Definition list:</b></h3>
+<dl>
+    <dt>Bangalore</dt>
+    <dd>-Capital City of Kamataka</dd> 
+    <dt>Mumbai</dt>
+    <dd>-Capital City of maharashtra</dd>
+    </dl>
+    <!-- end of question two -->
+
+    <h1>Question three</h1>
+
+    <table  border="1px">
+        <tr>
+            <th colspan="4">Table Heading Cell Spanning 4 Columns</th>
+        </tr>
+        <tr>
+            <td>Normal cell</td>
+            <td colspan="2">Cell spanning 2 columns</td>
+            <td>Normal cell</td>
+        </tr>
+        <tr>
+            <td rowspan="3" style="background-color: gray;">Cell spanning 3<br> with a gray(US spelling)<br>background</td>
+            <td>Normal cell</td>
+            <td>Normal cell</td>
+            <td>Normal cell</td>
+        </tr>
+        <tr>
+            <td>Normal cell</td>
+            <td colspan="2" rowspan="2">Cell spanning 2 rows and 2<br>columns</td>
+        </tr>
+        <td>Normal cell</td>
+    </table>
+
+    <!-- end of question three -->
+
+    <h1>Question four</h1>
+
+    <fieldset>
+        <legend>Academic information</legend>
+      <label for="referrer">Degree
+        <select id="referrer" name="referrer">
+          <option value="">Master of Business Administration </option>
+          <option value="1"> master 1</option>
+          <option value="2">master2</option>
+          <option value="3">master3</option>
+          <option value="4">Other</option>
+        </select>
+      </label><br>
+      <label for="first-name">Student ID <input id="first-name" name="first-name" type="text" required /></label><br>
+      <div style="display: flex;gap: 1em;">
+      <label>Class attended 
+      </label>
+      <span>
+        <div style="width: fit-content;height: 70px;overflow-y: auto;border: 1px solid;">
+          <ul style="list-style: none;text-align: left;margin: 0;padding: 10px;">
+            <li style="list-style: none;text-align: left;">Geography</li>
+            <li>physics</li>
+            <li>Mathematics</li>
+            <li>English</li>
+            <li>Chemistry</li>
+          </ul>
+        </div>
+      </span>
+    </div>
+      </fieldset>
+          <fieldset>
+            <legend>Personal Details</legend>
+            <label for="First Name">First Name: <input id="First Name" name="First Name" type="text" required /></label><br>
+            <label for="last-name">last-name:  <input id="last-name" name="last-name" type="text"required /></label><br>
+            <label>Gender</label>
+            <label for="Male"><input id="Male" type="radio" name="Male" class="inline" checked /> Male</label>
+            <label for="Female"><input id="Female" type="radio" name="Female" class="inline" /> Female</label><br>
+            <label for="email">Email: <input id="email" name="email" type="email" required /></label>
+            </fieldset>
+          <fieldset>
+              <textarea id="bio" name="bio" rows="3" cols="30" placeholder= "TERMS AND CONDITION..."></textarea>
+            </label><br>
+          <input style="background-color:darkgray" panding="5px" type="Send Form" value="Send Form" />
+          <input style="background-color:darkgray" panding="5px" type="Clear Form" value="Clear Form" />
+        </form>
+
+        <!-- end of question four -->
+
+    <h1>Question five</h1>
+    <table>
+    </tr>
+        <th class="pizza" colspan="4"><h1>Pizza Shop 2.0 Form</h1></th>
+    <tr>
+    <tr>
+        <th>Name</th>
+        <th colspan="3"><input type="" name="" value="" placeholder=""></th>
+    </tr>
+    <tr>
+        <th ><label for="pizza-topping">Pizza Topping</label></th>
+        <th>
+            <input type="radio" id="supreme" name="pizza-topping" value="supreme">
+            <label for="supreme">Supreme</label> <br>
+            <input type="radio" id="vegetarian" name="pizza-topping" value="vegetarian">
+            <label for="vegetarian">Vegetarian</label> <br>
+            <input type="radio" id="hawaiian" name="pizza-topping" value="hawaiian">
+            <label for="hawaiian">Hawaiian</label>
+        </th>
+    </tr>
+    <tr>
+        <th><label for="sauce">Pizza Sauce</label></th>
+        <th>
+            <select id="sauce" name="sauce">
+                <option value="tomato">Tomato</option>
+                <option value="extra-cheese">Extra Cheese</option>
+                <option value="gluten-free-base">Gluten Free Base</option>
+            </select>
+        </th>
+    </tr>
+    <tr text-align="left">
+        <th><label for="optional-extras">Optional Extras</label></th>
+        <th>
+            <input type="checkbox">Extra Cheese<input type="checkbox">Gluten Free Base
+        </th>
+    </tr>
+    <tr>
+        <th colspan="4">
+            Delivery Instructions:
+            <label for="delivery-instructions"></label> <br>
+            <textarea style="width:500px; height:60px"></textarea>
+        </th>
+    </tr>
+    <tr>
+        <th>
+            <input type="button" value="Send my Order">
+        </th>
+    </tr>
+
+        
+    </table>
+
+    <!-- end of question five -->
 </body>
 
 </html>
